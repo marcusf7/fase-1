@@ -7,7 +7,7 @@ public class AreaCirculo {
         System.out.print("Digite o raio do círculo: ");
         double raio = scanner.nextDouble();
         
-        double area = 3.14 * Math.pow(raio, 2);
+        double area = 3.14 * raio * raio;
         System.out.println("A área do círculo é: " + area);
         
         scanner.close();
